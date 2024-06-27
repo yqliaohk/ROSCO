@@ -154,5 +154,5 @@ if __name__ == "__main__":
     myobj.write_rst()
 
     filename = myobj.fout.split('/')[-1]
-    doc_file = os.path.realpath(os.path.join(os.path.dirname(__file__),'../../docs/source/toolbox_input.rst'))
+    doc_file = os.path.realpath(os.path.join(os.path.dirname(__file__),'../../../docs/source/toolbox_input.rst'))
     copy(myobj.fout, doc_file)

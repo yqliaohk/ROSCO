@@ -160,7 +160,7 @@ properties:
                 minimum: 0
                 maximum: 2
                 default: 2
-                description: Wind speed estimator mode (0- One-second low pass filtered hub height wind speed, 1- Immersion and Invariance Estimator (Ortega et al.)
+                description: Wind speed estimator mode (0- One-second low pass filtered hub height wind speed, 1- Immersion and Invariance Estimator (Ortega et al., 2- Extended Kalman Filter)
             PS_Mode:            
                 type: number
                 minimum: 0

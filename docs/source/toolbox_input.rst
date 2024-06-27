@@ -192,7 +192,7 @@ controller_params
 :code:`WE_Mode` : Float
     Wind speed estimator mode (0- One-second low pass filtered hub
     height wind speed, 1- Immersion and Invariance Estimator (Ortega
-    et al.)
+    et al., 2- Extended Kalman Filter)
 
     *Default* = 2
 
@@ -684,6 +684,15 @@ These are pass-through parameters for the DISCON.IN file.  Use with caution. Do 
     OpenFAST
 
     *Default* = 0
+
+:code:`Ext_Interface` : Float
+    0 - use standard bladed interface, 1 - Use the extened DLL
+    interface introduced in OpenFAST 3.5.0.
+
+    *Default* = 1
+
+    *Minimum* = 0    *Maximum* = 1
+
 
 :code:`F_LPFType` : Float
     1- first-order low-pass filter, 2- second-order low-pass filter
